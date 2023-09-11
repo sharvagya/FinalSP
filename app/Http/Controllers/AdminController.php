@@ -103,7 +103,7 @@ class AdminController extends Controller
         {
             // Retrieve the total number of employees and departments
             $totalEmployees = Employee::countEmployees();
-            $totalDepartments = Department::countDepartment();
+            $totalDepartments = Department::countDepartments();
     
             // Pass the data to the dashboard view
             return view('admin', compact('totalEmployees', 'totalDepartments'));

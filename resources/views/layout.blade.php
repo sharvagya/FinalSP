@@ -91,10 +91,7 @@
                                      </nav>
                                 </div>
                                 {{-- End Attendance --}}
-                            <a class="nav-link" href="charts.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Charts
-                            </a>
+                    
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
